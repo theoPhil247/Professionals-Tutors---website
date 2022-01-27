@@ -1,0 +1,151 @@
+    * {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #000000;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/student_3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box {
+    margin: auto;
+    margin-left: auto;
+    width: 1024px;
+}
+
+header {
+    /*background-color: rgb(9, 77, 223);
+        */
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.85);
+    width: 100%;
+    height: 50px;
+}
+
+nav p {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(172, 200, 212);
+    font-size: 24px;
+    line-height: 5px;
+    float: left;
+    padding: 0px 20px;
+}
+
+nav p:hover {
+    color: #4e5358;
+}
+
+nav ul {
+    float: left;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    color: rgb(252, 250, 225);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    padding-right: 20px;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    padding: 1px;
+    background: rgb(31, 30, 30, .7);
+    border-radius: 0px 0px 4px 4px;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    width: 180px;
+    border-radius: 4px;
+}
+
+nav ul li ul a {
+    padding: 8px 14px;
+}
+
+nav ul li ul a:hover {
+    background-color: #4e5358;
+}
+
+main {
+    /*background-color: rgb(240, 167, 72);
+    background-image: url(images/student.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    height: 300px;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-family: 'Muli' sans-serif;
+    font-size: 35px;
+    font-weight: 8rem;
+    color: rgb(2, 11, 134);
+}
+
+main p {
+    font-family: 'Baloo Da 2', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    /*text-shadow: 1px 1px 2px black, 0 0 8px rgb(3, 3, 177), 0 0 5px rgb(1, 1, 90);*/
+    line-height: 35px;
+    min-width: 650px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.logo {
+    padding-top: 15px;
+}
+
+a {
+    color: rgb(255, 251, 2);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    color: greenyellow;
+    font-size: 20px;
+}
+
+h3 {
+    color: blue, rgb(2, 9, 104);
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 60px;
+    align-content: center;
+	margin-top: 15%;
+	}
+
+footer p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: initial;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    color: rgb(107, 73, 73);
